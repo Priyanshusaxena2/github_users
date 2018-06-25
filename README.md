@@ -10,7 +10,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Getting Started ###
 
-* Create a user for postgres : "createuser tribe --pwprompt --superuser"
+* Create a user for postgres 
 * Set password for the user : <DB_PASSWORD>
 * Create a db for the application : "createdb userss"
 
