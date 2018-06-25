@@ -12,12 +12,12 @@ This README would normally document whatever steps are necessary to get your app
 
 * Create a user for postgres : "createuser tribe --pwprompt --superuser"
 * Set password for the user : <DB_PASSWORD>
-* Create a db for the application : "createdb tribe"
+* Create a db for the application : "createdb userss"
 
 
 ### Virtual Environment Setup ###
 
-* Setup tribe virtualenv : "virtualenv -p python3 env"
+* Setup  virtualenv : "virtualenv -p python3 env"
 * Move to virtualenv and activate its environment
 
 
