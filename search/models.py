@@ -30,7 +30,7 @@ class User(models.Model):
     blog = models.CharField(max_length=256,blank=True,null=True)
     location = models.CharField(max_length=100,blank=True,null=True)
     email = models.EmailField(null=True,blank=True)
-    hireable = models.CharField(max_length=256,blank=True,null=True)
+    hireable = models.NullBooleanField(null=True,blank=True)
     bio = models.CharField(max_length=256,blank=True,null=True)
     public_repos = models.IntegerField()
     public_gists = models.IntegerField()
